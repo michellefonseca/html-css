@@ -1,0 +1,49 @@
+@charset UTF-8;
+@font-face {
+    font-family: 'fonteidroid';
+    src: url(fontes/idroid.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background-color: rgb(183, 228, 183);
+}
+header{
+    background-color: rgba(9, 88, 9, 0.747);
+    text-align: center;
+    color: white;
+}
+nav{
+    background-color: green;
+    color: white;
+    border-top: 0px;
+    text-decoration: none;
+}
+
+main{
+    background-color: white;
+}
+main > h1 {
+    font-family: 'fonteidroid', Helvetica, sans-serif;
+    color: green;
+    font-size: 2em;
+    font-weight: normal;
+}
+
+h2{
+    background-color: rgb(175, 212, 120);
+    font-family: 'fonteidroid', Helvetica, sans-serif;
+    color: green;
+    font-size: 1em;
+    font-weight: normal;
+    
+}
+
+p{
+    text-indent: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
